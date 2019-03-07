@@ -50,13 +50,19 @@ span {
     margin: 0; 
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h5 {
     font-weight: 500;
     color: #000000;
     line-height: 1.5;
 
 }
+h4 {
+    font-weight: 500;
+    color: #000000;
+    line-height: 1.5;
 
+
+}
 .progress-list div {
     width: 100%;
     margin-left: 200px;
@@ -131,7 +137,7 @@ footer {
 }
 
 p {
-    line-height: 1.5;
+    line-height: 1.7;
 }
 
 progress {
@@ -208,7 +214,7 @@ progress::-moz-progress-value {
     margin: 0 auto;
 
     width: 1800px;
-    height: 2000px;
+    height: 2600px;
     background-color: white;
 
 }
@@ -227,7 +233,8 @@ progress::-moz-progress-value {
     position: relative;;
     margin-left: 500px;
     min-height: 100%;
-    padding: 30px;
+    padding-left: 30px;
+    padding-right: 120px;
 
 }
 
