@@ -52,8 +52,9 @@ span {
 
 h1, h2, h3, h4, h5 {
     font-weight: 500;
-    color: #607d8b;
+    color: #000000;
     line-height: 1.5;
+
 }
 
 .progress-list div {
@@ -136,7 +137,7 @@ p {
 progress {
     background-color: #f6f6f6;
     display: inline;
-    /*width: 195px;*/
+    width: 195px;
     height: 1em;
 
 }
@@ -170,34 +171,35 @@ progress::-moz-progress-value {
 }
 
 .weixin{
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: #e0eaf0;   
     position: relative;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
 .weixin img{
-    width: 200px;
+    width: 300px;
 }
 
 .left-label {
     display: inline-block;
-    width: 120px;
+    width: 200px;
+    padding-left: 0px;
 }
 
 .portrait {
     margin: 0 auto;
-    margin-top:20px;
+    margin-top:10px;
     margin-bottom: 10px;
-    background-image:url('https://avatars0.githubusercontent.com/u/21081491?v=3&s=460');
-    background-size: 120%;
+    background-image:url('./lijian_photo.jpeg');
+    background-size: 105%;
     background-position:center;
-    border-radius:50%;
-    border:5px solid #607d8b;
-    width:160px;
-    height:160px;
+    border-radius:0%;
+    border:0px solid #607d8b;
+    width:207px;
+    height:280px;
 }
 
 
@@ -205,27 +207,27 @@ progress::-moz-progress-value {
     position: relative;
     margin: 0 auto;
 
-    width: 1050px;
-    height: 1550px;
+    width: 1800px;
+    height: 2000px;
     background-color: white;
 
 }
 
 .side {
     position: absolute;
-    width: 360px;
+    width: 500px;
     height: 100%;
     background-color: whitesmoke;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 60px;
+    padding-right: 30px;
 }
 
 .main {
     
     position: relative;;
-    margin-left: 360px;
+    margin-left: 500px;
     min-height: 100%;
-    padding: 20px;
+    padding: 30px;
 
 }
 
