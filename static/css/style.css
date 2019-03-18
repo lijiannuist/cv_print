@@ -213,28 +213,28 @@ progress::-moz-progress-value {
     position: relative;
     margin: 0 auto;
 
-    width: 1800px;
-    height: 2600px;
+    width: 1350px; 
+    height: 3000px;
     background-color: white;
 
 }
 
 .side {
     position: absolute;
-    width: 500px;
+    width: 440px;
     height: 100%;
     background-color: whitesmoke;
-    padding-left: 60px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .main {
     
     position: relative;;
-    margin-left: 500px;
+    margin-left: 440px;
     min-height: 100%;
     padding-left: 30px;
-    padding-right: 120px;
+    padding-right: 30px;
 
 }
 
